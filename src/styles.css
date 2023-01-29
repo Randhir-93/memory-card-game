@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board-container {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 4px #ccc;
+}
+
+.scores {
+  margin: 20px 0;
+  text-align: right;
+}
+
+.card-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.card-container:hover {
+  box-shadow: 0 0 4px blue;
+}
+.card-container img {
+  max-height: 80%;
+  width: 100%;
+
+  border: 2px solid white;
+}
