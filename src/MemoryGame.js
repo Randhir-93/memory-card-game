@@ -10,7 +10,7 @@ const MemoryGame = () => {
 
   const cardClickHandler = (id) => {
     if (clickedCardIds.includes(id)) {
-      setBestScroe(score);
+      setBestScroe(bsetScroe > score ? bsetScroe : score);
       setScore(0);
       setClickedCardIds([]);
     } else {
